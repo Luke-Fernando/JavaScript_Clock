@@ -28,14 +28,14 @@ function timeFormat() {
     }
 }
 function minFormat() {
-    if (minute < 9) {
+    if (minute < 10) {
         minValue.innerHTML = "0" + minute;
     } else {
         minValue.innerHTML = minute;
     }
 }
 function secFormat() {
-    if (second < 9) {
+    if (second < 10) {
         secValue.innerHTML = "0" + second;
     } else {
         secValue.innerHTML = second;
