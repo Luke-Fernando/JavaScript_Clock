@@ -22,6 +22,9 @@ function timeFormat() {
     } else if (hour === 11) {
         amTOPm.innerHTML = "a.m.";
         hrValue.innerHTML = hour;
+    } else if (hour === 12) {
+        amTOPm.innerHTML = "p.m.";
+        hrValue.innerHTML = hour;
     } else {
         amTOPm.innerHTML = "a.m.";
         hrValue.innerHTML = "0" + hour;
