@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e2a47;
+}
+
+.clock-container {
+  width: 400px;
+  height: 150px;
+  background-color: #00828e;
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#number-container {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Teko", sans-serif;
+  color: #f9f871;
+  font-size: 90px;
+}
+
+.num {
+  width: 28%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#day-time {
+  width: 10%;
+  height: 100%;
+  font-family: "Teko", sans-serif;
+  color: #f9f871;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}/*# sourceMappingURL=style.css.map */
