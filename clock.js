@@ -11,7 +11,11 @@ let hour12;
 
 // clock functions 
 function timeFormat() {
-    if (hour > 12 && hour !== 24) {
+    if (hour > 12 && hour < 22) {
+        hour12 = hour - 12;
+        amTOPm.innerHTML = "p.m.";
+        hrValue.innerHTML = "0"+hour12;
+    }else if (hour > 12 && hour < 21) {
         hour12 = hour - 12;
         amTOPm.innerHTML = "p.m.";
         hrValue.innerHTML = hour12;
