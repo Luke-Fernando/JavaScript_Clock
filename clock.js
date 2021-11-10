@@ -14,8 +14,8 @@ function timeFormat() {
     if (hour > 12 && hour < 22) {
         hour12 = hour - 12;
         amTOPm.innerHTML = "p.m.";
-        hrValue.innerHTML = "0"+hour12;
-    }else if (hour > 12 && hour < 21) {
+        hrValue.innerHTML = "0" + hour12;
+    } else if (hour > 12 && hour < 21) {
         hour12 = hour - 12;
         amTOPm.innerHTML = "p.m.";
         hrValue.innerHTML = hour12;
@@ -28,6 +28,9 @@ function timeFormat() {
         hrValue.innerHTML = hour;
     } else if (hour === 12) {
         amTOPm.innerHTML = "p.m.";
+        hrValue.innerHTML = hour;
+    } else if (hour === 10) {
+        amTOPm.innerHTML = "a.m.";
         hrValue.innerHTML = hour;
     } else {
         amTOPm.innerHTML = "a.m.";
